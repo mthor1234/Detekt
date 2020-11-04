@@ -10,6 +10,8 @@ repositories {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
+    compileOnly "io.gitlab.arturbosch.detekt:detekt-api:$detekt_Version"
+
     testCompile "junit:junit:4.12"
     testCompile "org.assertj:assertj-core:3.11.1"
     testCompile "io.gitlab.arturbosch.detekt:detekt-api:$detekt_Version"
