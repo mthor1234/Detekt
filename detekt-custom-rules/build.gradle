@@ -1,0 +1,17 @@
+plugins {
+    id 'java-library'
+    id 'kotlin'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    testCompile "junit:junit:4.12"
+    testCompile "org.assertj:assertj-core:3.11.1"
+    testCompile "io.gitlab.arturbosch.detekt:detekt-api:$detekt_Version"
+    testCompile "io.gitlab.arturbosch.detekt:detekt-test:$detekt_Version"
+}

@@ -1,2 +1,3 @@
+include ':detekt-custom-rules'
 include ':app'
 rootProject.name = "Detekt"
