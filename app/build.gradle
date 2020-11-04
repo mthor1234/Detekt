@@ -43,5 +43,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     detekt "io.gitlab.arturbosch.detekt:detekt-cli:$detekt_Version"
+    detekt "io.gitlab.arturbosch.detekt:detekt-formatting:$detekt_Version"
+
     detekt project(":detekt-custom-rules")
 }
