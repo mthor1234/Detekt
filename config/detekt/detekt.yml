@@ -12,7 +12,7 @@ build:
 config:
   validation: true
   # when writing own rules with new properties, exclude the property path e.g.: 'my_rule_set,.*>.*>[my_property]'
-  excludes: 'custom-detekt-rules'
+#  excludes: 'detekt-custom-rules'
 
 
 processors:
@@ -651,8 +651,8 @@ style:
     excludeImports: ['java.util.*', 'kotlinx.android.synthetic.*']
 
 # Custom Rules
-custom-detekt-rules:
-#  TooManyFunctions:
-#    active: true
-#  TOFIBRule:
-#    active: true
+detekt-custom-rules:
+  TooManyFunctions:
+    active: true
+  TOFIBRule:
+    active: true

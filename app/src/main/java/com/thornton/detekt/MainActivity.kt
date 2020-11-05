@@ -8,4 +8,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+    fun testOne() {}
+    fun testTwo() {}
+    fun testThree() {}
+    fun testFour() {}
 }

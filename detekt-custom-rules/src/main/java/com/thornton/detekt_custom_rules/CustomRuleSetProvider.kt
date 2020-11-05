@@ -8,5 +8,5 @@ class CustomRuleSetProvider : RuleSetProvider {
     override val ruleSetId: String = "detekt-custom-rules"
 
     override fun instance(config: Config)
-            = RuleSet(ruleSetId, listOf())
+            = RuleSet(ruleSetId, listOf(TOFIBRule(), TooManyFunctions()))
 }
