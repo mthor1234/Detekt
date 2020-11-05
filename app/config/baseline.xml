@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues></ManuallySuppressedIssues>
+  <CurrentIssues>
+    <ID>EmptyFunctionBlock:MainActivity.kt$MainActivity${}</ID>
+    <ID>NoWildcardImports:com.thornton.detekt.MainActivity.kt:4</ID>
+    <ID>TooManyFunctions:MainActivity.kt$com.thornton.detekt.MainActivity.kt</ID>
+    <ID>WildcardImport:MainActivity.kt$import android.os.*</ID>
+  </CurrentIssues>
+</SmellBaseline>

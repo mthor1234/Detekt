@@ -42,6 +42,7 @@ subprojects {
         failFast = true // fail build on any finding
         autoCorrect = true
         buildUponDefaultConfig = true // preconfigure defaults
+        baseline = file("$projectDir/config/baseline.xml")
     }
 }
 
